@@ -1,7 +1,7 @@
 #!/bin/bash
 
-per1 = $1
-per2 = $2
+per1=$1
+per2=$2
 
 echo "$per1 :: Hi $per2"
 echo "$per2 :: hey $per1"
