@@ -1,6 +1,9 @@
 #!/bin/bash
 
-a=$(date)
-b=$(date +%m)
+a=$(date +%s)
 
-echo "the current dats is $a"
+sleep 10
+
+b=$(date +%s)
+
+echo "time taken to executed the script :$(($a-$b))
