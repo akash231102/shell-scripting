@@ -2,4 +2,4 @@
 
 animals=("dog" "cat" "fox")
 
-echo "first aimal is ${animal[0]}"
+echo "first aimal is ${animals[0]}"
