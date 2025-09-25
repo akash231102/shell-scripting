@@ -7,7 +7,7 @@ G="\e[31m"
 Y="\e[32m"
 N="\e[0m"
 
-if [ USER_ID -ne 0 ]; then
+if [ $USER_ID -ne 0 ]; then
     echo "need root access to execute this"
     exit 1
 fi
